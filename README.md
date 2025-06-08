@@ -70,7 +70,17 @@ For more information on using the Angular CLI, including detailed command refere
 docker build -t rsalgadoc/dashboard-angular .
 ```
 
+```bash
+docker push rsalgadoc/dashboard-angular
+```
+
+```bash
+docker pull rsalgadoc/dashboard-angular
+```
 
 ```bash
 docker run -d --name dashboard-angular -p 86:80 --restart always rsalgadoc/dashboard-angular
 ```
+
+
+http://ec2-3-133-140-15.us-east-2.compute.amazonaws.com/dashboard-angular/
