@@ -83,4 +83,4 @@ docker run -d --name dashboard-angular -p 86:80 --restart always rsalgadoc/dashb
 ```
 
 
-http://ec2-3-133-140-15.us-east-2.compute.amazonaws.com/dashboard-angular/
+http://ec2-35-170-201-29.compute-1.amazonaws.com/dashboard-angular/
